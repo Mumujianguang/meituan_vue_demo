@@ -5,10 +5,12 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-
+    curCity: ''
   },
   mutations: {
-
+    setCurCity (state, val) {
+      state.curCity = val;
+    }
   },
   actions: {
 
